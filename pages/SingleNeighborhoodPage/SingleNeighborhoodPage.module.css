@@ -1,0 +1,64 @@
+.wrapper {
+  padding: 50px;
+  /* height: 100vh; */
+}
+
+.neighborhoodImg {
+  max-height: 5em;
+  width: 5em;
+}
+
+.nameColumn {
+  max-width: 400px;
+}
+
+.neighborhoodName {
+  line-height: 1.1;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+}
+
+.membersContainer {
+  margin-top: 10px;
+  margin-right: 30px;
+  display: flex;
+  align-self: flex-start;
+}
+
+.centeredColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaveIcon {
+  color: #ff4e2a;
+  font-size: 1.7em;
+  margin-left: 8px;
+  margin-top: 4px;
+  transition: font-size 0.2s;
+}
+
+.leaveIcon:hover {
+  font-size: 1.8em;
+  color: #ff2b00;
+  cursor: pointer;
+}
+
+.leaveIcon:active {
+  color: #e92700;
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    padding: 30px;
+  }
+
+  .centeredColumn {
+    width: 89vw;
+  }
+
+  .membersContainer {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+.error {
+  margin: auto;
+  text-align: justify;
+  padding: 0 2rem;
+  width: fit-content;
+}
+
+.imgContainer {
+  padding: 0 2rem;
+}
+
+.row {
+  min-height: 100vh;
+}
+
+.column {
+  /* min-height: 100vh; */
+  padding: 0;
+  /* min-width: 0; */
+}
+
+.errorColumn {
+  margin-top: 10vh;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+ 
+.p {
+  margin: 0;
+}
+
+.errorImg {
+  max-width: 400px;
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  .column {
+    min-height: 0;
+    min-width: unset;
+    height: auto;
+  }
+}

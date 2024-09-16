@@ -1,0 +1,84 @@
+.wrapper {
+  color: #3e4756;
+  background: #fff;
+  background-image: radial-gradient(at 3.6% 13.8%, #f8d5e0 0px, transparent 50%),
+    radial-gradient(at 96.3% 93.8%, #fad3ca 0px, transparent 50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px 7.23%;
+}
+
+.alertBox {
+  max-width: 75%;
+  margin: 1em auto 1em;
+}
+
+.logo {
+  color: #3e4756;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.logo i {
+  font-size: 2rem;
+  margin-right: 4px;
+}
+
+.customRow {
+  padding: 4.5rem;
+}
+
+.customCol {
+  align-content: center;
+  display: grid;
+}
+
+.formWrapper {
+  min-height: 28.2rem;
+  padding: 1.9rem 1rem;
+}
+
+.imgCol {
+  /* background: linear-gradient(to right, #ff7343 9%, white);
+  background-color: #ff7343; */
+  justify-content: center;
+  text-align: center;
+  /* padding-top: 62px;
+  padding-bottom: 3px; */
+}
+
+@media screen and (max-width: 992px) {
+  .headerRow {
+    justify-content: center;
+    padding-top: 2rem;
+  }
+
+  .logoLink {
+    width: fit-content;
+  }
+
+  .customCol {
+    justify-content: center;
+  }
+
+  .imgCol {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .customRow {
+    padding: 0;
+  }
+}
